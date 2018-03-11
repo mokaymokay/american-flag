@@ -1,11 +1,22 @@
 #blue-box {
   background-color: #3C3B6E;
-  width: 380px;
+  width: 395px;
   height: 280px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
 }
 
 #main-container {
   background-color: #B22234;
-  width: 1125px;
-  height: 527px;
+  width: 988px;
+  height: 520px;
+}
+
+img {
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
