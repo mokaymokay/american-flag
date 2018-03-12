@@ -7,13 +7,6 @@
   display: flex;
 }
 
-#main-container {
-  width: 988px;
-  height: 520px;
-  z-index: auto;
-  position: relative;
-}
-
 img {
   position: relative;
   z-index: 2;
