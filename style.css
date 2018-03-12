@@ -8,15 +8,23 @@
 }
 
 #main-container {
-  background-color: #B22234;
   width: 988px;
   height: 520px;
+  z-index: auto;
+  position: relative;
 }
 
 img {
   position: relative;
   z-index: 2;
-  flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+.red-stripe {
+  position: relative;
+  background-color: #B22234;
+  width: 988px;
+  height: 40px;
+  margin-bottom: 40px;
 }
